@@ -36,3 +36,18 @@
   width: 1.32vw;
   height: 1.32vw;
 }
+
+#carritoCompras {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  height: 10vw;
+  margin-bottom: 5vw;
+  margin-left: 20vw;
+  #barraInicial {
+    height: 1vw;
+    width: 100%;
+    color: red;
+    opacity: 1;
+  }
+}

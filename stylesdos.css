@@ -41,7 +41,28 @@
 }
 
 .carrito {
-  width: 1.3vw;
-  height: 1.3vw;
+  width: 1.32vw;
+  height: 1.32vw;
+}
+
+#carritoCompras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60vw;
+  height: 10vw;
+  margin-bottom: 5vw;
+  margin-left: 20vw;
+}
+
+#carritoCompras #barraInicial {
+  height: 1vw;
+  width: 100%;
+  color: red;
+  opacity: 1;
 }
 /*# sourceMappingURL=stylesdos.css.map */
