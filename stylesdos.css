@@ -40,7 +40,7 @@
   height: 20vw;
 }
 
-.carrito {
+#navigation ul li a #carrito {
   width: 1.32vw;
   height: 1.32vw;
 }
@@ -57,12 +57,5 @@
   height: 10vw;
   margin-bottom: 5vw;
   margin-left: 20vw;
-}
-
-#carritoCompras #barraInicial {
-  height: 1vw;
-  width: 100%;
-  color: red;
-  opacity: 1;
 }
 /*# sourceMappingURL=stylesdos.css.map */
