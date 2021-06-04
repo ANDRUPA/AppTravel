@@ -1,0 +1,38 @@
+.page-header {
+  color: white;
+  margin-bottom: 0;
+  .container {
+    #imgCentral {
+      width: 100vw;
+    }
+  }
+}
+
+#paquetes {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 4vw 0 4vw 0;
+}
+
+#suscribete {
+  width: 100%;
+  #tituloSuscribete {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(37, 97, 37);
+  }
+  #imgsDiv {
+    display: flex;
+    .imgDiv {
+      width: 25%;
+      height: 20vw;
+    }
+  }
+}
+
+.carrito {
+  width: 1.32vw;
+  height: 1.32vw;
+}

@@ -1,0 +1,47 @@
+.page-header {
+  color: white;
+  margin-bottom: 0;
+}
+
+.page-header .container #imgCentral {
+  width: 100vw;
+}
+
+#paquetes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4vw 0 4vw 0;
+}
+
+#suscribete {
+  width: 100%;
+}
+
+#suscribete #tituloSuscribete {
+  font-size: 5vw;
+  text-align: center;
+  font-weight: bold;
+  color: #256125;
+}
+
+#suscribete #imgsDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#suscribete #imgsDiv .imgDiv {
+  width: 25%;
+  height: 20vw;
+}
+
+.carrito {
+  width: 1.3vw;
+  height: 1.3vw;
+}
+/*# sourceMappingURL=stylesdos.css.map */
