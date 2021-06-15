@@ -47,8 +47,73 @@
 #carritoCompras {
   display: flex;
   flex-direction: column;
-  width: 60vw;
-  height: 10vw;
+  width: 100%;
   margin-bottom: 5vw;
-  margin-left: 20vw;
+  #carro {
+    .itemCarro {
+      display: flex;
+      border: 1px solid blue;
+      #imgItemCarro {
+        width: 5vw;
+        height: 7.5vw;
+        margin: 0 3vw 0 1vw;
+      }
+      #infoPaqueteCarrito {
+        display: flex;
+        flex-direction: column;
+        margin-right: 5vw;
+        #tituloPaqueteComprado {
+          font-size: 3vw;
+          font-weight: bold;
+          margin-top: 0.3vw;
+          margin-bottom: 0.6vw;
+        }
+        #destinoPaquete {
+          font-size: 1vw;
+          margin-top: 0.3vw;
+          margin-bottom: 0.3vw;
+        }
+        #duracionDiasPaquete {
+          font-size: 1vw;
+          margin-top: 0.3vw;
+          margin-bottom: 0.3vw;
+        }
+        #duracionNochesPaquete {
+          font-size: 1vw;
+          margin-top: 0.3vw;
+          margin-bottom: 0.3vw;
+        }
+        #comidaPaquete {
+          font-size: 1vw;
+          margin-top: 0.3vw;
+          margin-bottom: 0.3vw;
+        }
+      }
+      #catidadYPrecio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #botonReducir {
+          width: 2vw;
+          height: 2vw;
+          display: block;
+        }
+        #cantidadPaquete {
+          width: 2vw;
+          height: 2vw;
+          display: block;
+        }
+        #botonSumar {
+          width: 2vw;
+          height: 2vw;
+          display: block;
+        }
+        #precioPaquete {
+          font-size: 2vw;
+          font-weight: bold;
+          margin-left: 5vw;
+        }
+      }
+    }
+  }
 }
