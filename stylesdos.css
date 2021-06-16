@@ -53,9 +53,98 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 60vw;
-  height: 10vw;
+  width: 100%;
   margin-bottom: 5vw;
-  margin-left: 20vw;
+}
+
+#carritoCompras #carro .itemCarro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid blue;
+}
+
+#carritoCompras #carro .itemCarro #imgItemCarro {
+  width: 5vw;
+  height: 7.5vw;
+  margin: 0 3vw 0 1vw;
+}
+
+#carritoCompras #carro .itemCarro #infoPaqueteCarrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 5vw;
+}
+
+#carritoCompras #carro .itemCarro #infoPaqueteCarrito #tituloPaqueteComprado {
+  font-size: 3vw;
+  font-weight: bold;
+  margin-top: 0.3vw;
+  margin-bottom: 0.6vw;
+}
+
+#carritoCompras #carro .itemCarro #infoPaqueteCarrito #destinoPaquete {
+  font-size: 1vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+
+#carritoCompras #carro .itemCarro #infoPaqueteCarrito #duracionDiasPaquete {
+  font-size: 1vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+
+#carritoCompras #carro .itemCarro #infoPaqueteCarrito #duracionNochesPaquete {
+  font-size: 1vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+
+#carritoCompras #carro .itemCarro #infoPaqueteCarrito #comidaPaquete {
+  font-size: 1vw;
+  margin-top: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+
+#carritoCompras #carro .itemCarro #catidadYPrecio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#carritoCompras #carro .itemCarro #catidadYPrecio #botonReducir {
+  width: 2vw;
+  height: 2vw;
+  display: block;
+}
+
+#carritoCompras #carro .itemCarro #catidadYPrecio #cantidadPaquete {
+  width: 2vw;
+  height: 2vw;
+  display: block;
+}
+
+#carritoCompras #carro .itemCarro #catidadYPrecio #botonSumar {
+  width: 2vw;
+  height: 2vw;
+  display: block;
+}
+
+#carritoCompras #carro .itemCarro #catidadYPrecio #precioPaquete {
+  font-size: 2vw;
+  font-weight: bold;
+  margin-left: 5vw;
 }
 /*# sourceMappingURL=stylesdos.css.map */
